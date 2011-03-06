@@ -1,0 +1,1145 @@
+EESchema Schematic File Version 2  date sáb 05 mar 2011 23:35:11 COT
+LIBS:stm32f100vxx
+LIBS:transistor-npn
+LIBS:ipc-7351-transistor
+LIBS:switch-misc
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:micron_ddr_512Mb
+LIBS:iMX23
+LIBS:sdmmc
+LIBS:usbconn
+LIBS:fsusb20
+LIBS:r_pack2
+LIBS:pasives-connectors
+LIBS:EEPROM
+LIBS:PWR
+LIBS:m25p32
+LIBS:PROpendous-cache
+LIBS:w_analog
+LIBS:i.mx233stamp-cache
+EELAYER 25  0
+EELAYER END
+$Descr A4 11700 8267
+Sheet 2 6
+Title ""
+Date "6 mar 2011"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 5850 4600
+Connection ~ 7250 4200
+Wire Wire Line
+	5850 4700 7000 4700
+Wire Wire Line
+	7000 4200 7000 4700
+Wire Wire Line
+	7450 4200 7000 4200
+Wire Wire Line
+	7650 4200 7750 4200
+Wire Wire Line
+	7750 4200 7750 4800
+Wire Wire Line
+	7750 4800 7650 4800
+Wire Wire Line
+	7750 4400 7950 4400
+Wire Wire Line
+	7950 4400 7950 4550
+Connection ~ 7750 4400
+Connection ~ 7250 4800
+Wire Wire Line
+	5850 4800 6400 4800
+Wire Wire Line
+	7450 4800 6900 4800
+Wire Wire Line
+	1300 2500 1850 2500
+Wire Wire Line
+	2900 2500 2350 2500
+Wire Notes Line
+	10050 5800 10050 5000
+Wire Notes Line
+	10050 5800 10850 5800
+Wire Notes Line
+	10850 5800 10850 5000
+Wire Notes Line
+	10850 5000 10050 5000
+Wire Wire Line
+	9800 6550 9300 6550
+Wire Wire Line
+	9800 6650 9300 6650
+Wire Wire Line
+	9800 6400 9300 6400
+Wire Wire Line
+	9800 6300 9300 6300
+Wire Notes Line
+	8250 5000 8250 5450
+Wire Bus Line
+	6750 4200 6750 1600
+Wire Wire Line
+	5850 2700 6650 2700
+Wire Wire Line
+	5850 2800 6650 2800
+Wire Wire Line
+	5850 2900 6650 2900
+Wire Wire Line
+	5850 3100 6650 3100
+Wire Wire Line
+	5850 3000 6650 3000
+Wire Wire Line
+	5850 4200 6650 4200
+Wire Wire Line
+	5850 4300 6650 4300
+Wire Wire Line
+	5850 4100 6650 4100
+Wire Wire Line
+	5850 4000 6650 4000
+Wire Wire Line
+	5850 3300 6650 3300
+Wire Wire Line
+	5850 3400 6650 3400
+Wire Wire Line
+	5850 3600 6650 3600
+Wire Wire Line
+	5850 2400 6650 2400
+Wire Wire Line
+	5850 2200 6650 2200
+Wire Wire Line
+	5850 2000 6650 2000
+Wire Wire Line
+	5850 1800 6650 1800
+Wire Bus Line
+	6750 2100 7050 2100
+Wire Wire Line
+	5850 1700 6650 1700
+Wire Wire Line
+	5850 1900 6650 1900
+Wire Wire Line
+	5850 2100 6650 2100
+Wire Wire Line
+	5850 2300 6650 2300
+Wire Wire Line
+	5850 2500 6650 2500
+Wire Wire Line
+	5850 3500 6650 3500
+Wire Wire Line
+	5850 3700 6650 3700
+Wire Wire Line
+	5850 3900 6650 3900
+Wire Wire Line
+	2350 5700 2900 5700
+Wire Wire Line
+	2350 5800 2900 5800
+Wire Wire Line
+	2350 5500 2900 5500
+Wire Wire Line
+	2350 5400 2900 5400
+Wire Bus Line
+	2000 6600 2000 5900
+Wire Wire Line
+	2900 6700 2100 6700
+Wire Bus Line
+	2000 6200 1700 6200
+Wire Wire Line
+	2900 6500 2100 6500
+Wire Wire Line
+	2900 6300 2100 6300
+Wire Wire Line
+	2900 6100 2100 6100
+Wire Wire Line
+	2900 6000 2100 6000
+Wire Wire Line
+	2900 6200 2100 6200
+Wire Wire Line
+	2900 6400 2100 6400
+Wire Wire Line
+	2900 6600 2100 6600
+Wire Bus Line
+	6750 6600 6750 4900
+Wire Wire Line
+	9850 6050 9350 6050
+Wire Wire Line
+	9850 6150 9350 6150
+Wire Wire Line
+	9850 5900 9350 5900
+Wire Wire Line
+	9850 5800 9350 5800
+Wire Wire Line
+	2350 5000 2900 5000
+Wire Wire Line
+	2350 5100 2900 5100
+Wire Wire Line
+	2350 4800 2900 4800
+Wire Wire Line
+	2350 4700 2900 4700
+Wire Wire Line
+	2900 4200 2100 4200
+Wire Wire Line
+	2900 4000 2100 4000
+Wire Wire Line
+	2900 3800 2100 3800
+Wire Wire Line
+	2900 3600 2100 3600
+Wire Wire Line
+	2900 3400 2100 3400
+Wire Wire Line
+	2900 3200 2100 3200
+Wire Wire Line
+	2900 3000 2100 3000
+Wire Wire Line
+	2900 2800 2100 2800
+Wire Bus Line
+	2000 4100 2000 2600
+Wire Bus Line
+	2000 3100 1700 3100
+Connection ~ 9900 4300
+Wire Wire Line
+	9850 4300 9900 4300
+Wire Wire Line
+	9300 4300 9450 4300
+Wire Wire Line
+	9450 4300 9450 4350
+Wire Wire Line
+	9100 4300 9250 4300
+Wire Wire Line
+	9250 4300 9250 4050
+Wire Wire Line
+	9250 4050 9300 4050
+Wire Wire Line
+	9300 4150 9300 4500
+Wire Wire Line
+	8350 4400 8700 4400
+Wire Wire Line
+	2600 2200 2900 2200
+Connection ~ 1500 2500
+Wire Wire Line
+	10300 4650 10600 4650
+Wire Wire Line
+	10600 4250 10600 3850
+Wire Wire Line
+	10600 3850 10300 3850
+Connection ~ 9450 2900
+Wire Wire Line
+	9450 2900 9450 2750
+Wire Wire Line
+	9450 2750 9700 2750
+Wire Wire Line
+	4300 1100 4300 1200
+Wire Wire Line
+	10200 2100 10200 1950
+Wire Wire Line
+	10200 1950 10300 1950
+Wire Wire Line
+	9850 2100 9850 1800
+Wire Wire Line
+	9150 2100 9150 1800
+Wire Wire Line
+	8450 1800 8450 2100
+Wire Wire Line
+	4100 850  4100 1200
+Wire Wire Line
+	3900 850  3900 1200
+Wire Wire Line
+	3700 850  3700 1200
+Connection ~ 9550 3300
+Wire Wire Line
+	9550 3400 9550 3300
+Connection ~ 9500 2500
+Wire Wire Line
+	8650 2650 8650 2500
+Connection ~ 8650 2500
+Wire Wire Line
+	9850 5250 9350 5250
+Wire Wire Line
+	2350 4400 2900 4400
+Connection ~ 4450 7250
+Wire Wire Line
+	4550 7250 4550 7150
+Connection ~ 4350 7250
+Wire Wire Line
+	4350 7150 4350 7350
+Connection ~ 4150 7250
+Wire Wire Line
+	4150 7150 4150 7250
+Wire Wire Line
+	4050 7150 4050 7250
+Wire Wire Line
+	4250 7250 4250 7150
+Connection ~ 4250 7250
+Wire Wire Line
+	4450 7250 4450 7150
+Wire Wire Line
+	4650 7150 4650 7250
+Wire Wire Line
+	4650 7250 4050 7250
+Connection ~ 4550 7250
+Wire Wire Line
+	2350 4500 2900 4500
+Wire Wire Line
+	9850 5350 9350 5350
+Connection ~ 9850 2500
+Wire Wire Line
+	8450 2500 10200 2500
+Connection ~ 8800 2500
+Connection ~ 9150 2500
+Wire Wire Line
+	9350 3300 9750 3300
+Wire Notes Line
+	10850 1550 8250 1550
+Wire Notes Line
+	10850 1550 10850 3550
+Wire Notes Line
+	10850 3550 8250 3550
+Wire Notes Line
+	8250 3550 8250 1550
+Wire Wire Line
+	3800 850  3800 1200
+Wire Wire Line
+	4000 850  4000 1200
+Wire Wire Line
+	8800 2100 8800 1800
+Wire Wire Line
+	9500 2100 9500 1800
+Wire Wire Line
+	4200 850  4200 1200
+Wire Wire Line
+	9750 2900 9350 2900
+Wire Wire Line
+	2600 2000 2900 2000
+Wire Wire Line
+	10600 4650 10600 4750
+Wire Wire Line
+	10300 3850 10300 4050
+Wire Notes Line
+	10050 3650 10850 3650
+Wire Notes Line
+	10050 3650 10050 4900
+Wire Notes Line
+	10050 4900 10850 4900
+Wire Notes Line
+	10850 4900 10850 3650
+Connection ~ 1000 2100
+Wire Wire Line
+	800  2250 800  2100
+Wire Wire Line
+	800  2100 1000 2100
+Connection ~ 1500 1900
+Wire Wire Line
+	1100 2500 1000 2500
+Wire Wire Line
+	1000 2500 1000 1900
+Wire Wire Line
+	1000 1900 1100 1900
+Wire Wire Line
+	2600 2100 2900 2100
+Wire Wire Line
+	8700 4300 8350 4300
+Wire Notes Line
+	10000 4900 10000 3650
+Wire Notes Line
+	10000 4900 8250 4900
+Wire Notes Line
+	8250 4900 8250 3650
+Wire Notes Line
+	8250 3650 10000 3650
+Connection ~ 9300 4300
+Wire Wire Line
+	9300 4600 9250 4600
+Wire Wire Line
+	9250 4600 9250 4400
+Wire Wire Line
+	9250 4400 9100 4400
+Wire Wire Line
+	9300 3950 9250 3950
+Wire Wire Line
+	9250 3950 9250 3850
+Wire Wire Line
+	9250 3850 9900 3850
+Wire Wire Line
+	9900 3850 9900 4800
+Wire Wire Line
+	9900 4800 9250 4800
+Wire Wire Line
+	9250 4800 9250 4700
+Wire Wire Line
+	9250 4700 9300 4700
+Wire Wire Line
+	2900 2700 2100 2700
+Wire Wire Line
+	2900 2900 2100 2900
+Wire Wire Line
+	2900 3100 2100 3100
+Wire Wire Line
+	2900 3300 2100 3300
+Wire Wire Line
+	2900 3500 2100 3500
+Wire Wire Line
+	2900 3700 2100 3700
+Wire Wire Line
+	2900 3900 2100 3900
+Wire Wire Line
+	2900 4100 2100 4100
+Wire Notes Line
+	8250 5000 10000 5000
+Wire Notes Line
+	8250 5450 10000 5450
+Wire Wire Line
+	5850 6400 6650 6400
+Wire Wire Line
+	5850 6200 6650 6200
+Wire Wire Line
+	5850 6000 6650 6000
+Wire Wire Line
+	5850 5800 6650 5800
+Wire Wire Line
+	5850 5600 6650 5600
+Wire Wire Line
+	5850 5400 6650 5400
+Wire Wire Line
+	5850 5200 6650 5200
+Wire Wire Line
+	5850 5000 6650 5000
+Wire Bus Line
+	6750 5400 7050 5400
+Wire Wire Line
+	5850 5100 6650 5100
+Wire Wire Line
+	5850 5300 6650 5300
+Wire Wire Line
+	5850 5500 6650 5500
+Wire Wire Line
+	5850 5700 6650 5700
+Wire Wire Line
+	5850 5900 6650 5900
+Wire Wire Line
+	5850 6100 6650 6100
+Wire Wire Line
+	5850 6300 6650 6300
+Wire Wire Line
+	5850 6500 6650 6500
+Wire Wire Line
+	5850 6700 6650 6700
+Wire Wire Line
+	5850 6600 6650 6600
+Wire Notes Line
+	10000 5450 10000 5000
+Wire Notes Line
+	10000 5550 8250 5550
+Wire Notes Line
+	10000 5550 10000 6750
+Wire Notes Line
+	10000 6750 8250 6750
+Wire Notes Line
+	8250 6750 8250 5550
+Wire Wire Line
+	2900 2400 2450 2400
+Wire Wire Line
+	2450 2400 2450 1900
+Wire Wire Line
+	2450 1900 1300 1900
+$Comp
+L GND #PWR?
+U 1 1 4D73062C
+P 7950 4550
+F 0 "#PWR?" H 7950 4550 30  0001 C CNN
+F 1 "GND" H 7950 4480 30  0001 C CNN
+	1    7950 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CAP C?
+U 1 1 4D73062B
+P 7550 4800
+F 0 "C?" H 7600 4900 50  0000 L CNN
+F 1 "10 pF" H 7600 4700 50  0000 L CNN
+	1    7550 4800
+	0    1    1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 4D73062A
+P 7550 4200
+F 0 "C?" H 7600 4300 50  0000 L CNN
+F 1 "10 pF" H 7600 4100 50  0000 L CNN
+	1    7550 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 4D730629
+P 7250 4500
+F 0 "X?" H 7350 4650 60  0000 C CNN
+F 1 "32 KHz" H 7250 4350 60  0000 C CNN
+	1    7250 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4D730628
+P 6650 4800
+F 0 "R?" V 6730 4800 50  0000 C CNN
+F 1 "390" V 6650 4800 50  0000 C CNN
+	1    6650 4800
+	0    1    -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 4D7305F9
+P 2100 2500
+F 0 "R?" V 2180 2500 50  0000 C CNN
+F 1 "390" V 2100 2500 50  0000 C CNN
+	1    2100 2500
+	0    -1   -1   0   
+$EndComp
+Text Label 9800 6550 2    60   ~ 0
+I2C2_SCL
+Text Label 9800 6650 2    60   ~ 0
+I2C2_SDA
+Text HLabel 9300 6550 0    60   BiDi ~ 0
+STM32_I2C2_SCL
+Text HLabel 9300 6650 0    60   BiDi ~ 0
+STM32_I2C2_SDA
+Text HLabel 9300 6400 0    60   BiDi ~ 0
+STM32_I2C1_SDA
+Text HLabel 9300 6300 0    60   BiDi ~ 0
+STM32_I2C1_SCL
+Text Label 9800 6400 2    60   ~ 0
+I2C1_SDA
+Text Label 9800 6300 2    60   ~ 0
+I2C1_SCL
+Text Notes 8900 5650 0    60   ~ 0
+Other ports
+Entry Wire Line
+	6750 2600 6650 2700
+Text Label 6000 2700 0    60   ~ 0
+TIM4_CH4
+Text Label 6000 3100 0    60   ~ 0
+TIM4_ETR
+Text Label 6000 3000 0    60   ~ 0
+TIM4_CH1
+Entry Wire Line
+	6750 3000 6650 3100
+Entry Wire Line
+	6750 2900 6650 3000
+Entry Wire Line
+	6750 2700 6650 2800
+Entry Wire Line
+	6750 2800 6650 2900
+Text Label 6000 2800 0    60   ~ 0
+TIM4_CH3
+Text Label 6000 2900 0    60   ~ 0
+TIM4_CH2
+Text Label 6000 4100 0    60   ~ 0
+STM32_PD3
+Text Label 6000 4000 0    60   ~ 0
+STM32_PD4
+Entry Wire Line
+	6750 4000 6650 4100
+Entry Wire Line
+	6750 3900 6650 4000
+Entry Wire Line
+	6750 4100 6650 4200
+Entry Wire Line
+	6750 4200 6650 4300
+Text Label 6000 4200 0    60   ~ 0
+STM32_PE3
+Text Label 6000 4300 0    60   ~ 0
+STM32_PE2
+Text Label 6000 3900 0    60   ~ 0
+STM32_PD10
+Text Label 6000 3700 0    60   ~ 0
+TIM3_ETR
+Text Label 6000 3600 0    60   ~ 0
+TIM3_CH4
+Text Label 6000 3500 0    60   ~ 0
+TIM3_CH3
+Text Label 5990 2500 0    60   ~ 0
+TIM1_ETR
+Text Label 5990 2400 0    60   ~ 0
+TIM1_CH1N
+Text Label 5990 2300 0    60   ~ 0
+TIM1_CH1
+Text Label 5990 2200 0    60   ~ 0
+TIM1_CH2N
+Text Label 5990 2100 0    60   ~ 0
+TIM1_CH2
+Text Label 5990 2000 0    60   ~ 0
+TIM1_CH3N
+Text Label 5990 1900 0    60   ~ 0
+TIM1_CH3
+Text Label 5990 1800 0    60   ~ 0
+TIM1_CH4
+Text Label 5990 1700 0    60   ~ 0
+TIM1_BKIN
+Text HLabel 7050 2100 2    60   BiDi ~ 0
+STM32_TIMs
+Entry Wire Line
+	6750 3600 6650 3700
+Entry Wire Line
+	6750 3500 6650 3600
+Entry Wire Line
+	6750 3400 6650 3500
+Entry Wire Line
+	6750 2400 6650 2500
+Entry Wire Line
+	6750 2300 6650 2400
+Entry Wire Line
+	6750 2200 6650 2300
+Entry Wire Line
+	6750 2100 6650 2200
+Entry Wire Line
+	6750 2000 6650 2100
+Entry Wire Line
+	6750 1900 6650 2000
+Entry Wire Line
+	6750 1800 6650 1900
+Entry Wire Line
+	6750 1700 6650 1800
+Entry Wire Line
+	6750 1600 6650 1700
+Entry Wire Line
+	6750 3800 6650 3900
+Entry Wire Line
+	6750 3200 6650 3300
+Entry Wire Line
+	6750 3300 6650 3400
+Text Label 6000 3300 0    60   ~ 0
+TIM3_CH1
+Text Label 6000 3400 0    60   ~ 0
+TIM3_CH2
+Text Label 2350 5800 0    60   ~ 0
+I2C2_SDA
+Text Label 2350 5700 0    60   ~ 0
+I2C2_SCL
+Text Label 2350 5400 0    60   ~ 0
+I2C1_SCL
+Text Label 2350 5500 0    60   ~ 0
+I2C1_SDA
+Text Label 2200 6700 0    60   ~ 0
+STM32_PA14
+Entry Wire Line
+	2000 6600 2100 6700
+Text HLabel 1700 6200 0    60   BiDi ~ 0
+STM32_GPIOs
+Entry Wire Line
+	2000 6400 2100 6500
+Entry Wire Line
+	2000 5900 2100 6000
+Entry Wire Line
+	2000 6000 2100 6100
+Entry Wire Line
+	2000 6100 2100 6200
+Entry Wire Line
+	2000 6200 2100 6300
+Entry Wire Line
+	2000 6300 2100 6400
+Entry Wire Line
+	2000 6500 2100 6600
+Text Label 2200 6000 0    60   ~ 0
+STM32_PD1
+Text Label 2200 6100 0    60   ~ 0
+STM32_PD0
+Text Label 2200 6200 0    60   ~ 0
+STM32_PC10
+Text Label 2200 6300 0    60   ~ 0
+STM32_PC11
+Text Label 2200 6400 0    60   ~ 0
+STM32_PC12
+Text Label 2200 6500 0    60   ~ 0
+STM32_PB4
+Text Label 2200 6600 0    60   ~ 0
+STM32_PA13
+Text Label 6000 6700 0    60   ~ 0
+STM32_PD3
+Text Label 6000 6600 0    60   ~ 0
+STM32_PD4
+Entry Wire Line
+	6750 6600 6650 6700
+Entry Wire Line
+	6750 6500 6650 6600
+Entry Wire Line
+	6750 6300 6650 6400
+Entry Wire Line
+	6750 4900 6650 5000
+Entry Wire Line
+	6750 5000 6650 5100
+Entry Wire Line
+	6750 5100 6650 5200
+Entry Wire Line
+	6750 5200 6650 5300
+Entry Wire Line
+	6750 5300 6650 5400
+Entry Wire Line
+	6750 5400 6650 5500
+Entry Wire Line
+	6750 5500 6650 5600
+Entry Wire Line
+	6750 5600 6650 5700
+Entry Wire Line
+	6750 5700 6650 5800
+Entry Wire Line
+	6750 5800 6650 5900
+Entry Wire Line
+	6750 5900 6650 6000
+Entry Wire Line
+	6750 6000 6650 6100
+Entry Wire Line
+	6750 6100 6650 6200
+Entry Wire Line
+	6750 6200 6650 6300
+Entry Wire Line
+	6750 6400 6650 6500
+Text HLabel 7050 5400 2    60   BiDi ~ 0
+STM32_GPIOs
+Text Label 5990 5000 0    60   ~ 0
+STM32_PE15
+Text Label 5990 5100 0    60   ~ 0
+STM32_PE14
+Text Label 5990 5200 0    60   ~ 0
+STM32_PE12
+Text Label 5990 5300 0    60   ~ 0
+STM32_PE10
+Text Label 5990 5400 0    60   ~ 0
+STM32_PE9
+Text Label 5990 5500 0    60   ~ 0
+STM32_PE8
+Text Label 5990 5600 0    60   ~ 0
+STM32_PE7
+Text Label 5990 5700 0    60   ~ 0
+STM32_PE6
+Text Label 5990 5800 0    60   ~ 0
+STM32_PE5
+Text Label 5990 5900 0    60   ~ 0
+STM32_PE4
+Text Label 6000 6000 0    60   ~ 0
+STM32_PE3
+Text Label 6000 6100 0    60   ~ 0
+STM32_PE2
+Text Label 6000 6200 0    60   ~ 0
+STM32_PE1
+Text Label 6000 6300 0    60   ~ 0
+STM32_PD11
+Text Label 6000 6400 0    60   ~ 0
+STM32_PD10
+Text Label 6000 6500 0    60   ~ 0
+STM32_PD7
+Text Notes 8700 5100 0    60   ~ 0
+Programming port
+Text Label 9850 6150 2    60   ~ 0
+USART3_RX
+Text Label 9850 6050 2    60   ~ 0
+USART3_TX
+Text HLabel 9350 6050 0    60   BiDi ~ 0
+STM32_USART3_TX
+Text HLabel 9350 6150 0    60   BiDi ~ 0
+STM32_USART3_RX
+Text HLabel 9350 5900 0    60   BiDi ~ 0
+STM32_USART2_RX
+Text HLabel 9350 5800 0    60   BiDi ~ 0
+STM32_USART2_TX
+Text Label 9850 5800 2    60   ~ 0
+USART2_TX
+Text Label 9850 5900 2    60   ~ 0
+USART2_RX
+Text Label 2350 5100 0    60   ~ 0
+USART3_RX
+Text Label 2350 5000 0    60   ~ 0
+USART3_TX
+Text Label 2350 4700 0    60   ~ 0
+USART2_TX
+Text Label 2350 4800 0    60   ~ 0
+USART2_RX
+Text Label 2200 4200 0    60   ~ 0
+STM32_ADC15
+Text Label 2200 4100 0    60   ~ 0
+STM32_ADC14
+Text Label 2200 4000 0    60   ~ 0
+STM32_ADC13
+Text Label 2200 3900 0    60   ~ 0
+STM32_ADC12
+Text Label 2200 3800 0    60   ~ 0
+STM32_ADC11
+Text Label 2200 3700 0    60   ~ 0
+STM32_ADC10
+Text Label 2200 3600 0    60   ~ 0
+STM32_ADC9
+Text Label 2200 3500 0    60   ~ 0
+STM32_ADC8
+Text Label 2200 3400 0    60   ~ 0
+STM32_ADC7
+Text Label 2200 3300 0    60   ~ 0
+STM32_ADC6
+Text Label 2200 3200 0    60   ~ 0
+STM32_ADC5
+Text Label 2200 3100 0    60   ~ 0
+STM32_ADC4
+Text Label 2200 3000 0    60   ~ 0
+STM32_ADC3
+Text Label 2200 2900 0    60   ~ 0
+STM32_ADC2
+Text Label 2200 2800 0    60   ~ 0
+STM32_ADC1
+Text Label 2200 2700 0    60   ~ 0
+STM32_ADC0
+Text HLabel 1700 3100 0    60   BiDi ~ 0
+STM32_ADC
+Entry Wire Line
+	2000 4100 2100 4200
+Entry Wire Line
+	2000 3900 2100 4000
+Entry Wire Line
+	2000 3800 2100 3900
+Entry Wire Line
+	2000 3700 2100 3800
+Entry Wire Line
+	2000 3600 2100 3700
+Entry Wire Line
+	2000 3500 2100 3600
+Entry Wire Line
+	2000 3400 2100 3500
+Entry Wire Line
+	2000 3300 2100 3400
+Entry Wire Line
+	2000 3200 2100 3300
+Entry Wire Line
+	2000 3100 2100 3200
+Entry Wire Line
+	2000 3000 2100 3100
+Entry Wire Line
+	2000 2900 2100 3000
+Entry Wire Line
+	2000 2800 2100 2900
+Entry Wire Line
+	2000 2700 2100 2800
+Entry Wire Line
+	2000 2600 2100 2700
+Entry Wire Line
+	2000 4000 2100 4100
+$Comp
+L CONN_3 K?
+U 1 1 4D711ECB
+P 9650 4050
+F 0 "K?" V 9600 4050 50  0000 C CNN
+F 1 "CONN_3" V 9700 4050 40  0000 C CNN
+	1    9650 4050
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9100 4200
+NoConn ~ 9100 4100
+NoConn ~ 8700 4200
+NoConn ~ 8700 4100
+Text Notes 8350 3800 0    60   ~ 0
+Boot mode select
+$Comp
+L CONN_3 K?
+U 1 1 4D711ED8
+P 9650 4600
+F 0 "K?" V 9600 4600 50  0000 C CNN
+F 1 "CONN_3" V 9700 4600 40  0000 C CNN
+	1    9650 4600
+	1    0    0    -1  
+$EndComp
+Text GLabel 9850 4300 0    60   BiDi ~ 0
+3V3
+$Comp
+L GND #PWR?
+U 1 1 4D711DCC
+P 9450 4350
+F 0 "#PWR?" H 9450 4350 30  0001 C CNN
+F 1 "GND" H 9450 4280 30  0001 C CNN
+	1    9450 4350
+	1    0    0    -1  
+$EndComp
+Text Label 8350 4400 0    60   ~ 0
+BOOT1
+Text Label 8350 4300 0    60   ~ 0
+BOOT0
+Text Label 2600 2200 0    60   ~ 0
+BOOT1
+Text Label 2600 2100 0    60   ~ 0
+BOOT0
+$Comp
+L R_PACK4 RP?
+U 1 1 4D711D6E
+P 8900 4450
+F 0 "RP?" H 8900 4750 40  0000 C CNN
+F 1 "10K" H 8900 4550 40  0000 C CNN
+	1    8900 4450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X?
+U 1 1 4D711157
+P 1500 2200
+F 0 "X?" H 1600 2350 60  0000 C CNN
+F 1 "24 MHz" H 1500 2050 60  0000 C CNN
+	1    1500 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 4D711156
+P 1200 1900
+F 0 "C?" H 1250 2000 50  0000 L CNN
+F 1 "20 pF" H 1250 1800 50  0000 L CNN
+	1    1200 1900
+	0    -1   1    0   
+$EndComp
+$Comp
+L CAP C?
+U 1 1 4D711155
+P 1200 2500
+F 0 "C?" H 1250 2600 50  0000 L CNN
+F 1 "20 pF" H 1250 2400 50  0000 L CNN
+	1    1200 2500
+	0    -1   1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4D711154
+P 800 2250
+F 0 "#PWR?" H 800 2250 30  0001 C CNN
+F 1 "GND" H 800 2180 30  0001 C CNN
+	1    800  2250
+	-1   0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH SW?
+U 1 1 4D710F18
+P 10300 4350
+F 0 "SW?" H 10450 4460 50  0000 C CNN
+F 1 "SW_PUSH" H 10300 4270 50  0000 C CNN
+	1    10300 4350
+	0    -1   -1   0   
+$EndComp
+Text Notes 10100 3800 0    60   ~ 0
+RESET STM32
+$Comp
+L GND #PWR?
+U 1 1 4D710E1B
+P 10600 4750
+F 0 "#PWR?" H 10600 4750 30  0001 C CNN
+F 1 "GND" H 10600 4680 30  0001 C CNN
+	1    10600 4750
+	1    0    0    -1  
+$EndComp
+Text Label 10600 3950 3    60   ~ 0
+NRST
+Text Label 2600 2000 0    60   ~ 0
+NRST
+$Comp
+L C C?
+U 1 1 4D70FE13
+P 10600 4450
+F 0 "C?" H 10650 4550 50  0000 L CNN
+F 1 "0.1uF" H 10650 4350 50  0000 L CNN
+	1    10600 4450
+	1    0    0    -1  
+$EndComp
+Text Label 9700 2750 2    60   ~ 0
+VDDA
+Text GLabel 4300 1100 1    60   BiDi ~ 0
+3V3
+Text Label 4200 850  3    60   ~ 0
+VDDA
+Text GLabel 10450 5650 0    60   BiDi ~ 0
+3V3
+Text GLabel 10450 5550 0    60   BiDi ~ 0
+3V3
+Text GLabel 10450 5450 0    60   BiDi ~ 0
+3V3
+Text GLabel 10450 5350 0    60   BiDi ~ 0
+3V3
+Text GLabel 10450 5250 0    60   BiDi ~ 0
+3V3
+Text Label 10450 5650 0    60   ~ 0
+VDD_1
+Text Label 10450 5550 0    60   ~ 0
+VDD_2
+Text Label 10450 5450 0    60   ~ 0
+VDD_3
+Text Label 10450 5350 0    60   ~ 0
+VDD_4
+Text Label 10450 5250 0    60   ~ 0
+VDD_5
+Text GLabel 10450 5100 2    60   BiDi ~ 0
+3V3
+Text GLabel 10300 1950 2    60   BiDi ~ 0
+3V3
+Text Label 9850 1800 3    60   ~ 0
+VDD_1
+Text Label 9500 1800 3    60   ~ 0
+VDD_2
+Text Label 9150 1800 3    60   ~ 0
+VDD_3
+Text Label 8800 1800 3    60   ~ 0
+VDD_4
+Text Label 8450 1800 3    60   ~ 0
+VDD_5
+Text Label 4100 850  3    60   ~ 0
+VDD_1
+Text Label 4000 850  3    60   ~ 0
+VDD_2
+Text Label 3900 850  3    60   ~ 0
+VDD_3
+Text Label 3800 850  3    60   ~ 0
+VDD_4
+Text Label 3700 850  3    60   ~ 0
+VDD_5
+Text Notes 8300 1550 0    60   ~ 0
+DECOUPLING
+$Comp
+L GND #PWR?
+U 1 1 4D70F1A5
+P 9550 3400
+F 0 "#PWR?" H 9550 3400 30  0001 C CNN
+F 1 "GND" H 9550 3330 30  0001 C CNN
+	1    9550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F18B
+P 9750 3100
+F 0 "C?" H 9800 3200 50  0000 L CNN
+F 1 "1uF" H 9800 3000 50  0000 L CNN
+	1    9750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F144
+P 9350 3100
+F 0 "C?" H 9400 3200 50  0000 L CNN
+F 1 "0.1uF" H 9400 3000 50  0000 L CNN
+	1    9350 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F0C0
+P 9850 2300
+F 0 "C?" H 9900 2400 50  0000 L CNN
+F 1 "0.1uF" H 9900 2200 50  0000 L CNN
+	1    9850 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F0BD
+P 9500 2300
+F 0 "C?" H 9550 2400 50  0000 L CNN
+F 1 "0.1uF" H 9550 2200 50  0000 L CNN
+	1    9500 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F0B6
+P 9150 2300
+F 0 "C?" H 9200 2400 50  0000 L CNN
+F 1 "0.1uF" H 9200 2200 50  0000 L CNN
+	1    9150 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F0B5
+P 8800 2300
+F 0 "C?" H 8850 2400 50  0000 L CNN
+F 1 "0.1uF" H 8850 2200 50  0000 L CNN
+	1    8800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4D70F037
+P 8650 2650
+F 0 "#PWR?" H 8650 2650 30  0001 C CNN
+F 1 "GND" H 8650 2580 30  0001 C CNN
+	1    8650 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F036
+P 10200 2300
+F 0 "C?" H 10250 2400 50  0000 L CNN
+F 1 "10uF Tantalum" H 10250 2200 50  0000 L CNN
+	1    10200 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C?
+U 1 1 4D70F035
+P 8450 2300
+F 0 "C?" H 8500 2400 50  0000 L CNN
+F 1 "0.1uF" H 8500 2200 50  0000 L CNN
+	1    8450 2300
+	1    0    0    -1  
+$EndComp
+Text HLabel 10450 5100 0    60   BiDi ~ 0
+3V3
+Text Label 9850 5350 2    60   ~ 0
+USART1_RX
+Text Label 9850 5250 2    60   ~ 0
+USART1_TX
+Text Label 2350 4500 0    60   ~ 0
+USART1_RX
+Text Label 2350 4400 0    60   ~ 0
+USART1_TX
+Text HLabel 9350 5250 0    60   BiDi ~ 0
+STM32_USART1_TX
+Text HLabel 9350 5350 0    60   BiDi ~ 0
+STM32_USART1_RX
+NoConn ~ 2900 1700
+$Comp
+L GND #PWR?
+U 1 1 4D70E3C7
+P 4350 7350
+F 0 "#PWR?" H 4350 7350 30  0001 C CNN
+F 1 "GND" H 4350 7280 30  0001 C CNN
+	1    4350 7350
+	1    0    0    -1  
+$EndComp
+$Comp
+L STM32F100VXX U?
+U 1 1 4D70B4EA
+P 4300 4750
+F 0 "U?" H 3300 8100 60  0000 C CNN
+F 1 "STM32F100VXX" H 5200 2550 60  0000 C CNN
+	1    4300 4750
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
