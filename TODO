@@ -1,0 +1,7 @@
+* Circuito de alimentación DC-DC
+* Pin de reset debe ir con GPIO del iMX, OK
+* De los 3 puertos seriales del stm32 y del imx, dos deberán estar conectados entre sí
+* (posible) Circuito de carga de lipo, falta elegir cantidad de celdas...
+* Pendiente conexión JTAG entre el imx y el stm32
+* los pines del boot select para el stm32 deben estrar conectados a dos gpios del iMX (eliminar jumpers)
+* si no se va a usar el RTC, quizá se puedan usar los pines de su correspondiente cristal como gpios

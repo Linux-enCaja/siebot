@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sáb 05 mar 2011 23:35:11 COT
+EESchema Schematic File Version 2  date jue 07 abr 2011 23:57:53 COT
 LIBS:stm32f100vxx
 LIBS:transistor-npn
 LIBS:ipc-7351-transistor
@@ -45,13 +45,14 @@ LIBS:PWR
 LIBS:m25p32
 LIBS:PROpendous-cache
 LIBS:w_analog
+LIBS:adm3101e
 LIBS:i.mx233stamp-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 1 6
+Sheet 3 6
 Title ""
-Date "6 mar 2011"
+Date "8 apr 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -59,4 +60,787 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Wire Wire Line
+	4650 5100 3850 5100
+Wire Wire Line
+	4650 5000 3850 5000
+Wire Wire Line
+	4650 5200 3850 5200
+Wire Wire Line
+	4650 5300 3850 5300
+Wire Wire Line
+	4650 5400 3850 5400
+Text Label 3850 5200 0    60   ~ 0
+TIM17_CH1
+Text Label 3850 5300 0    60   ~ 0
+TIM16_CH1
+Text Label 3850 5100 0    60   ~ 0
+TIM2_CH1_ETR
+Text Label 3850 5000 0    60   ~ 0
+TIM2_CH2
+Text Label 3850 5400 0    60   ~ 0
+TIM16_BKIN
+Text Label 2550 6800 2    60   ~ 0
+TIM16_BKIN
+Text Label 2550 7200 2    60   ~ 0
+TIM2_CH2
+Text Label 2550 7100 2    60   ~ 0
+TIM2_CH1_ETR
+Text Label 2550 6900 2    60   ~ 0
+TIM16_CH1
+Text Label 2550 7000 2    60   ~ 0
+TIM17_CH1
+Wire Wire Line
+	1750 6800 2550 6800
+Wire Wire Line
+	1750 6900 2550 6900
+Wire Wire Line
+	1750 7000 2550 7000
+Wire Wire Line
+	1750 7200 2550 7200
+Wire Wire Line
+	1750 7100 2550 7100
+$Comp
+L CONN_8X2 P?
+U 1 1 4D77F154
+P 5050 6900
+F 0 "P?" H 5050 7350 60  0000 C CNN
+F 1 "CONN_8X2" V 5050 6900 50  0000 C CNN
+	1    5050 6900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 7250 3850 7250
+Wire Wire Line
+	4650 7050 3850 7050
+Wire Wire Line
+	4650 6850 3850 6850
+Wire Wire Line
+	4650 6650 3850 6650
+Wire Wire Line
+	6250 7250 5450 7250
+Wire Wire Line
+	6250 7050 5450 7050
+Wire Wire Line
+	6250 6850 5450 6850
+Wire Wire Line
+	6250 6650 5450 6650
+Wire Wire Line
+	6250 6550 5450 6550
+Wire Wire Line
+	6250 6750 5450 6750
+Wire Wire Line
+	6250 6950 5450 6950
+Wire Wire Line
+	6250 7150 5450 7150
+Wire Wire Line
+	4650 6550 3850 6550
+Wire Wire Line
+	4650 6750 3850 6750
+Wire Wire Line
+	4650 6950 3850 6950
+Wire Wire Line
+	4650 7150 3850 7150
+Text Label 6250 6550 2    60   ~ 0
+STM32_ADC15
+Text Label 6250 6650 2    60   ~ 0
+STM32_ADC14
+Text Label 6250 6750 2    60   ~ 0
+STM32_ADC13
+Text Label 6250 6850 2    60   ~ 0
+STM32_ADC12
+Text Label 6250 6950 2    60   ~ 0
+STM32_ADC11
+Text Label 6250 7050 2    60   ~ 0
+STM32_ADC10
+Text Label 6250 7150 2    60   ~ 0
+STM32_ADC9
+Text Label 6250 7250 2    60   ~ 0
+STM32_ADC8
+Text Label 3850 7250 0    60   ~ 0
+STM32_ADC7
+Text Label 3850 7150 0    60   ~ 0
+STM32_ADC6
+Text Label 3850 7050 0    60   ~ 0
+STM32_ADC5
+Text Label 3850 6950 0    60   ~ 0
+STM32_ADC4
+Text Label 3850 6850 0    60   ~ 0
+STM32_ADC3
+Text Label 3850 6750 0    60   ~ 0
+STM32_ADC2
+Text Label 3850 6650 0    60   ~ 0
+STM32_ADC1
+Text Label 3850 6550 0    60   ~ 0
+STM32_ADC0
+Entry Wire Line
+	1650 2400 1750 2500
+Entry Wire Line
+	1650 1000 1750 1100
+Entry Wire Line
+	1650 1100 1750 1200
+Entry Wire Line
+	1650 1200 1750 1300
+Entry Wire Line
+	1650 1300 1750 1400
+Entry Wire Line
+	1650 1400 1750 1500
+Entry Wire Line
+	1650 1500 1750 1600
+Entry Wire Line
+	1650 1600 1750 1700
+Entry Wire Line
+	1650 1700 1750 1800
+Entry Wire Line
+	1650 1800 1750 1900
+Entry Wire Line
+	1650 1900 1750 2000
+Entry Wire Line
+	1650 2000 1750 2100
+Entry Wire Line
+	1650 2100 1750 2200
+Entry Wire Line
+	1650 2200 1750 2300
+Entry Wire Line
+	1650 2300 1750 2400
+Entry Wire Line
+	1650 2500 1750 2600
+Text HLabel 1350 1500 0    60   BiDi ~ 0
+ADC_CONN
+Text Label 2550 2600 2    60   ~ 0
+STM32_ADC0
+Text Label 2550 2500 2    60   ~ 0
+STM32_ADC1
+Text Label 2550 2400 2    60   ~ 0
+STM32_ADC2
+Text Label 2550 2300 2    60   ~ 0
+STM32_ADC3
+Text Label 2550 2200 2    60   ~ 0
+STM32_ADC4
+Text Label 2550 2100 2    60   ~ 0
+STM32_ADC5
+Text Label 2550 2000 2    60   ~ 0
+STM32_ADC6
+Text Label 2550 1900 2    60   ~ 0
+STM32_ADC7
+Text Label 2550 1800 2    60   ~ 0
+STM32_ADC8
+Text Label 2550 1700 2    60   ~ 0
+STM32_ADC9
+Text Label 2550 1600 2    60   ~ 0
+STM32_ADC10
+Text Label 2550 1500 2    60   ~ 0
+STM32_ADC11
+Text Label 2550 1400 2    60   ~ 0
+STM32_ADC12
+Text Label 2550 1300 2    60   ~ 0
+STM32_ADC13
+Text Label 2550 1200 2    60   ~ 0
+STM32_ADC14
+Text Label 2550 1100 2    60   ~ 0
+STM32_ADC15
+Wire Wire Line
+	2550 2500 1750 2500
+Wire Wire Line
+	2550 2300 1750 2300
+Wire Wire Line
+	2550 2100 1750 2100
+Wire Wire Line
+	2550 1900 1750 1900
+Wire Wire Line
+	2550 1700 1750 1700
+Wire Wire Line
+	2550 1500 1750 1500
+Wire Wire Line
+	2550 1300 1750 1300
+Wire Wire Line
+	2550 1100 1750 1100
+Wire Bus Line
+	1650 1500 1350 1500
+Wire Bus Line
+	1650 2500 1650 1000
+Wire Wire Line
+	2550 1200 1750 1200
+Wire Wire Line
+	2550 1400 1750 1400
+Wire Wire Line
+	2550 1600 1750 1600
+Wire Wire Line
+	2550 1800 1750 1800
+Wire Wire Line
+	2550 2000 1750 2000
+Wire Wire Line
+	2550 2200 1750 2200
+Wire Wire Line
+	2550 2400 1750 2400
+Wire Wire Line
+	2550 2600 1750 2600
+Text HLabel 5150 1500 0    60   BiDi ~ 0
+I2C2_SDA_CONN
+Text HLabel 5150 1400 0    60   BiDi ~ 0
+I2C2_SCL_CONN
+Text HLabel 5150 1300 0    60   BiDi ~ 0
+I2C1_SDA_CONN
+Text HLabel 5150 1200 0    60   BiDi ~ 0
+I2C1_SCL_CONN
+Wire Wire Line
+	5700 1300 5150 1300
+Wire Wire Line
+	5700 1200 5150 1200
+Text Label 5700 1300 2    60   ~ 0
+I2C1_SDA
+Text Label 5700 1200 2    60   ~ 0
+I2C1_SCL
+Wire Wire Line
+	5700 1500 5150 1500
+Wire Wire Line
+	5700 1400 5150 1400
+Text Label 5700 1400 2    60   ~ 0
+I2C2_SCL
+Text Label 5700 1500 2    60   ~ 0
+I2C2_SDA
+$Comp
+L CONN_3X2 P?
+U 1 1 4D77F017
+P 5050 2550
+F 0 "P?" H 5050 2800 50  0000 C CNN
+F 1 "CONN_3X2" V 5050 2600 40  0000 C CNN
+	1    5050 2550
+	1    0    0    -1  
+$EndComp
+Text Label 4100 2400 0    60   ~ 0
+I2C2_SDA
+Text Label 4100 2500 0    60   ~ 0
+I2C2_SCL
+Text Label 6000 2500 2    60   ~ 0
+I2C1_SCL
+Text Label 6000 2600 2    60   ~ 0
+I2C1_SDA
+$Comp
+L GND #PWR?
+U 1 1 4D77F016
+P 4550 2700
+F 0 "#PWR?" H 4550 2700 30  0001 C CNN
+F 1 "GND" H 4550 2630 30  0001 C CNN
+	1    4550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4D77F015
+P 5650 2250
+F 0 "#PWR?" H 5650 2250 30  0001 C CNN
+F 1 "GND" H 5650 2180 30  0001 C CNN
+	1    5650 2250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 2600 4650 2600
+Wire Wire Line
+	4550 2700 4550 2600
+Wire Wire Line
+	4100 2500 4650 2500
+Wire Wire Line
+	6000 2500 5450 2500
+Wire Wire Line
+	6000 2600 5450 2600
+Wire Wire Line
+	4100 2400 4650 2400
+Wire Wire Line
+	5650 2200 5650 2250
+Wire Wire Line
+	5500 2200 5650 2200
+Wire Wire Line
+	5500 2400 5500 2200
+Wire Wire Line
+	5450 2400 5500 2400
+Text Label 6250 5900 2    60   ~ 0
+TIM4_CH4
+Text Label 3850 6000 0    60   ~ 0
+TIM4_ETR
+Text Label 3850 6100 0    60   ~ 0
+TIM4_CH1
+Text Label 6250 6000 2    60   ~ 0
+TIM4_CH3
+Text Label 6250 6100 2    60   ~ 0
+TIM4_CH2
+Text Label 3850 5500 0    60   ~ 0
+TIM3_ETR
+Text Label 3850 5600 0    60   ~ 0
+TIM3_CH4
+Text Label 3850 5700 0    60   ~ 0
+TIM3_CH3
+Text Label 6250 5800 2    60   ~ 0
+TIM1_ETR
+Text Label 6250 5700 2    60   ~ 0
+TIM1_CH1N
+Text Label 6250 5600 2    60   ~ 0
+TIM1_CH1
+Text Label 6250 5500 2    60   ~ 0
+TIM1_CH2N
+Text Label 6250 5400 2    60   ~ 0
+TIM1_CH2
+Text Label 6250 5300 2    60   ~ 0
+TIM1_CH3N
+Text Label 6250 5200 2    60   ~ 0
+TIM1_CH3
+Text Label 6250 5100 2    60   ~ 0
+TIM1_CH4
+Text Label 6250 5000 2    60   ~ 0
+TIM1_BKIN
+Text Label 3850 5900 0    60   ~ 0
+TIM3_CH1
+Text Label 3850 5800 0    60   ~ 0
+TIM3_CH2
+Wire Wire Line
+	4650 5700 3850 5700
+Wire Wire Line
+	4650 5600 3850 5600
+Wire Wire Line
+	6250 5800 5450 5800
+Wire Wire Line
+	6250 5600 5450 5600
+Wire Wire Line
+	6250 5400 5450 5400
+Wire Wire Line
+	6250 5200 5450 5200
+Wire Wire Line
+	6250 5000 5450 5000
+Wire Wire Line
+	6250 5100 5450 5100
+Wire Wire Line
+	6250 5300 5450 5300
+Wire Wire Line
+	6250 5500 5450 5500
+Wire Wire Line
+	6250 5700 5450 5700
+Wire Wire Line
+	4650 5500 3850 5500
+Wire Wire Line
+	4650 5800 3850 5800
+Wire Wire Line
+	4650 5900 3850 5900
+Wire Wire Line
+	4650 6100 3850 6100
+Wire Wire Line
+	4650 6000 3850 6000
+Wire Wire Line
+	6250 6100 5450 6100
+Wire Wire Line
+	6250 6000 5450 6000
+Wire Wire Line
+	6250 5900 5450 5900
+$Comp
+L CONN_12X2 P?
+U 1 1 4D77EF15
+P 5050 5550
+F 0 "P?" H 5050 6200 60  0000 C CNN
+F 1 "CONN_12X2" V 5050 5550 50  0000 C CNN
+	1    5050 5550
+	1    0    0    -1  
+$EndComp
+Text HLabel 1350 5300 0    60   BiDi ~ 0
+TIMs_CONN
+Wire Bus Line
+	1650 4800 1650 7100
+Wire Wire Line
+	5450 3100 5500 3100
+Wire Wire Line
+	5500 3100 5500 2900
+Wire Wire Line
+	5500 2900 5650 2900
+Wire Wire Line
+	5650 2900 5650 2950
+Wire Wire Line
+	4100 3100 4650 3100
+Wire Wire Line
+	6000 3300 5450 3300
+Wire Wire Line
+	6000 3200 5450 3200
+Wire Wire Line
+	4100 3200 4650 3200
+Wire Wire Line
+	5700 1600 5150 1600
+Wire Wire Line
+	4550 3400 4550 3300
+Wire Wire Line
+	4550 3300 4650 3300
+Wire Wire Line
+	5700 1700 5150 1700
+Wire Wire Line
+	5700 1900 5150 1900
+Wire Wire Line
+	5700 1800 5150 1800
+Wire Bus Line
+	1650 4500 1650 2800
+Wire Wire Line
+	2550 4300 1750 4300
+Wire Wire Line
+	2550 4100 1750 4100
+Wire Wire Line
+	2550 3900 1750 3900
+Wire Wire Line
+	2550 3700 1750 3700
+Wire Wire Line
+	2550 3500 1750 3500
+Wire Wire Line
+	2550 3300 1750 3300
+Wire Wire Line
+	2550 3100 1750 3100
+Wire Wire Line
+	2550 2900 1750 2900
+Wire Bus Line
+	1650 3300 1350 3300
+Wire Wire Line
+	2550 3000 1750 3000
+Wire Wire Line
+	2550 3200 1750 3200
+Wire Wire Line
+	2550 3400 1750 3400
+Wire Wire Line
+	2550 3600 1750 3600
+Wire Wire Line
+	2550 3800 1750 3800
+Wire Wire Line
+	2550 4000 1750 4000
+Wire Wire Line
+	2550 4200 1750 4200
+Wire Wire Line
+	2550 4400 1750 4400
+Wire Wire Line
+	2550 4600 1750 4600
+Wire Wire Line
+	2550 4500 1750 4500
+Wire Wire Line
+	5450 4350 6250 4350
+Wire Wire Line
+	5450 4250 6250 4250
+Wire Wire Line
+	5450 4450 6250 4450
+Wire Wire Line
+	4650 4150 3850 4150
+Wire Wire Line
+	4650 3950 3850 3950
+Wire Wire Line
+	4650 3750 3850 3750
+Wire Wire Line
+	6250 4050 5450 4050
+Wire Wire Line
+	6250 3850 5450 3850
+Wire Wire Line
+	3850 4250 4650 4250
+Wire Wire Line
+	3850 4450 4650 4450
+Wire Wire Line
+	3850 4550 4650 4550
+Wire Wire Line
+	3850 4350 4650 4350
+Wire Wire Line
+	6250 3750 5450 3750
+Wire Wire Line
+	6250 3950 5450 3950
+Wire Wire Line
+	6250 4150 5450 4150
+Wire Wire Line
+	4650 3850 3850 3850
+Wire Wire Line
+	4650 4050 3850 4050
+Wire Wire Line
+	5450 4550 6250 4550
+Wire Wire Line
+	2550 5800 1750 5800
+Wire Wire Line
+	2550 5900 1750 5900
+Wire Wire Line
+	2550 6000 1750 6000
+Wire Wire Line
+	2550 6200 1750 6200
+Wire Wire Line
+	2550 6100 1750 6100
+Wire Wire Line
+	2550 6300 1750 6300
+Wire Wire Line
+	2550 6400 1750 6400
+Wire Wire Line
+	2550 6600 1750 6600
+Wire Wire Line
+	2550 5600 1750 5600
+Wire Wire Line
+	2550 5400 1750 5400
+Wire Wire Line
+	2550 5200 1750 5200
+Wire Wire Line
+	2550 5000 1750 5000
+Wire Bus Line
+	1650 5300 1350 5300
+Wire Wire Line
+	2550 4900 1750 4900
+Wire Wire Line
+	2550 5100 1750 5100
+Wire Wire Line
+	2550 5300 1750 5300
+Wire Wire Line
+	2550 5500 1750 5500
+Wire Wire Line
+	2550 5700 1750 5700
+Wire Wire Line
+	2550 6500 1750 6500
+Wire Wire Line
+	2550 6700 1750 6700
+Text Label 2550 6400 2    60   ~ 0
+TIM3_CH2
+Text Label 2550 6300 2    60   ~ 0
+TIM3_CH1
+Entry Wire Line
+	1650 6300 1750 6400
+Entry Wire Line
+	1650 6200 1750 6300
+Entry Wire Line
+	1650 6700 1750 6800
+Entry Wire Line
+	1650 4800 1750 4900
+Entry Wire Line
+	1650 4900 1750 5000
+Entry Wire Line
+	1650 5000 1750 5100
+Entry Wire Line
+	1650 5100 1750 5200
+Entry Wire Line
+	1650 5200 1750 5300
+Entry Wire Line
+	1650 5300 1750 5400
+Entry Wire Line
+	1650 5400 1750 5500
+Entry Wire Line
+	1650 5500 1750 5600
+Entry Wire Line
+	1650 5600 1750 5700
+Entry Wire Line
+	1650 6400 1750 6500
+Entry Wire Line
+	1650 6500 1750 6600
+Entry Wire Line
+	1650 6600 1750 6700
+Text Label 2550 4900 2    60   ~ 0
+TIM1_BKIN
+Text Label 2550 5000 2    60   ~ 0
+TIM1_CH4
+Text Label 2550 5100 2    60   ~ 0
+TIM1_CH3
+Text Label 2550 5200 2    60   ~ 0
+TIM1_CH3N
+Text Label 2550 5300 2    60   ~ 0
+TIM1_CH2
+Text Label 2550 5400 2    60   ~ 0
+TIM1_CH2N
+Text Label 2550 5500 2    60   ~ 0
+TIM1_CH1
+Text Label 2550 5600 2    60   ~ 0
+TIM1_CH1N
+Text Label 2550 5700 2    60   ~ 0
+TIM1_ETR
+Text Label 2550 6500 2    60   ~ 0
+TIM3_CH3
+Text Label 2550 6600 2    60   ~ 0
+TIM3_CH4
+Text Label 2550 6700 2    60   ~ 0
+TIM3_ETR
+Entry Wire Line
+	1650 7100 1750 7200
+Entry Wire Line
+	1650 7000 1750 7100
+Entry Wire Line
+	1650 6800 1750 6900
+Entry Wire Line
+	1650 6900 1750 7000
+Text Label 2550 6000 2    60   ~ 0
+TIM4_CH2
+Text Label 2550 5900 2    60   ~ 0
+TIM4_CH3
+Entry Wire Line
+	1650 5900 1750 6000
+Entry Wire Line
+	1650 5800 1750 5900
+Entry Wire Line
+	1650 6000 1750 6100
+Entry Wire Line
+	1650 6100 1750 6200
+Text Label 2550 6100 2    60   ~ 0
+TIM4_CH1
+Text Label 2550 6200 2    60   ~ 0
+TIM4_ETR
+Text Label 2550 5800 2    60   ~ 0
+TIM4_CH4
+Entry Wire Line
+	1650 5700 1750 5800
+Text Label 3850 3750 0    60   ~ 0
+STM32_PD3
+Text Label 3850 3850 0    60   ~ 0
+STM32_PD4
+Text Label 3850 4550 0    60   ~ 0
+STM32_PE15
+Text Label 3850 4450 0    60   ~ 0
+STM32_PE14
+Text Label 3850 4350 0    60   ~ 0
+STM32_PE12
+Text Label 3850 4250 0    60   ~ 0
+STM32_PE10
+Text Label 6250 3750 2    60   ~ 0
+STM32_PE9
+Text Label 6250 3850 2    60   ~ 0
+STM32_PE8
+Text Label 6250 3950 2    60   ~ 0
+STM32_PE7
+Text Label 6250 4050 2    60   ~ 0
+STM32_PE6
+Text Label 6250 4150 2    60   ~ 0
+STM32_PE5
+Text Label 6250 4250 2    60   ~ 0
+STM32_PE4
+Text Label 6250 4350 2    60   ~ 0
+STM32_PE3
+Text Label 6250 4450 2    60   ~ 0
+STM32_PE2
+Text Label 6250 4550 2    60   ~ 0
+STM32_PE1
+Text Label 3850 4150 0    60   ~ 0
+STM32_PD11
+Text Label 3850 4050 0    60   ~ 0
+STM32_PD10
+Text Label 3850 3950 0    60   ~ 0
+STM32_PD7
+Text Label 2550 4400 2    60   ~ 0
+STM32_PD7
+Text Label 2550 4300 2    60   ~ 0
+STM32_PD10
+Text Label 2550 4200 2    60   ~ 0
+STM32_PD11
+Text Label 2550 4100 2    60   ~ 0
+STM32_PE1
+Text Label 2550 4000 2    60   ~ 0
+STM32_PE2
+Text Label 2550 3900 2    60   ~ 0
+STM32_PE3
+Text Label 2550 3800 2    60   ~ 0
+STM32_PE4
+Text Label 2550 3700 2    60   ~ 0
+STM32_PE5
+Text Label 2550 3600 2    60   ~ 0
+STM32_PE6
+Text Label 2550 3500 2    60   ~ 0
+STM32_PE7
+Text Label 2550 3400 2    60   ~ 0
+STM32_PE8
+Text Label 2550 3300 2    60   ~ 0
+STM32_PE9
+Text Label 2550 3200 2    60   ~ 0
+STM32_PE10
+Text Label 2550 3100 2    60   ~ 0
+STM32_PE12
+Text Label 2550 3000 2    60   ~ 0
+STM32_PE14
+Text Label 2550 2900 2    60   ~ 0
+STM32_PE15
+Entry Wire Line
+	1650 4300 1750 4400
+Entry Wire Line
+	1650 4100 1750 4200
+Entry Wire Line
+	1650 4000 1750 4100
+Entry Wire Line
+	1650 3900 1750 4000
+Entry Wire Line
+	1650 3800 1750 3900
+Entry Wire Line
+	1650 3700 1750 3800
+Entry Wire Line
+	1650 3600 1750 3700
+Entry Wire Line
+	1650 3500 1750 3600
+Entry Wire Line
+	1650 3400 1750 3500
+Entry Wire Line
+	1650 3300 1750 3400
+Entry Wire Line
+	1650 3200 1750 3300
+Entry Wire Line
+	1650 3100 1750 3200
+Entry Wire Line
+	1650 3000 1750 3100
+Entry Wire Line
+	1650 2900 1750 3000
+Entry Wire Line
+	1650 2800 1750 2900
+Entry Wire Line
+	1650 4200 1750 4300
+Entry Wire Line
+	1650 4400 1750 4500
+Entry Wire Line
+	1650 4500 1750 4600
+Text Label 2550 4500 2    60   ~ 0
+STM32_PD4
+Text Label 2550 4600 2    60   ~ 0
+STM32_PD3
+Text HLabel 1350 3300 0    60   BiDi ~ 0
+GPIOs_CONN
+$Comp
+L CONN_9X2 P?
+U 1 1 4D77ECF8
+P 5050 4100
+F 0 "P?" H 5050 4550 60  0000 C CNN
+F 1 "CONN_9X2" V 5050 4100 50  0000 C CNN
+	1    5050 4100
+	1    0    0    -1  
+$EndComp
+Text HLabel 5150 1800 0    60   BiDi ~ 0
+USART3_RX
+Text Label 5700 1800 2    60   ~ 0
+USART3_RX
+Text Label 5700 1900 2    60   ~ 0
+USART3_TX
+Text HLabel 5150 1900 0    60   BiDi ~ 0
+USART3_TX
+Text HLabel 5150 1700 0    60   BiDi ~ 0
+USART2_TX
+Text Label 5700 1700 2    60   ~ 0
+USART2_TX
+$Comp
+L GND #PWR?
+U 1 1 4D77EC62
+P 5650 2950
+F 0 "#PWR?" H 5650 2950 30  0001 C CNN
+F 1 "GND" H 5650 2880 30  0001 C CNN
+	1    5650 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 4D77EC5A
+P 4550 3400
+F 0 "#PWR?" H 4550 3400 30  0001 C CNN
+F 1 "GND" H 4550 3330 30  0001 C CNN
+	1    4550 3400
+	1    0    0    -1  
+$EndComp
+Text Label 5700 1600 2    60   ~ 0
+USART2_RX
+Text HLabel 5150 1600 0    60   BiDi ~ 0
+USART2_RX
+Text Label 6000 3300 2    60   ~ 0
+USART2_RX
+Text Label 6000 3200 2    60   ~ 0
+USART2_TX
+Text Label 4100 3200 0    60   ~ 0
+USART2_TX
+Text Label 4100 3100 0    60   ~ 0
+USART2_RX
+$Comp
+L CONN_3X2 P?
+U 1 1 4D77EBA5
+P 5050 3250
+F 0 "P?" H 5050 3500 50  0000 C CNN
+F 1 "CONN_3X2" V 5050 3300 40  0000 C CNN
+	1    5050 3250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sáb 05 mar 2011 23:35:11 COT
+EESchema Schematic File Version 2  date jue 07 abr 2011 23:57:53 COT
 LIBS:stm32f100vxx
 LIBS:transistor-npn
 LIBS:ipc-7351-transistor
@@ -45,13 +45,14 @@ LIBS:PWR
 LIBS:m25p32
 LIBS:PROpendous-cache
 LIBS:w_analog
+LIBS:adm3101e
 LIBS:i.mx233stamp-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
 Sheet 5 6
 Title ""
-Date "6 mar 2011"
+Date "8 apr 2011"
 Rev ""
 Comp ""
 Comment1 ""
@@ -59,8 +60,17 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Notes 5850 5500 0    60   ~ 0
-SPI FLASH
+Wire Wire Line
+	7700 6250 8200 6250
+Connection ~ 8000 6150
+Wire Wire Line
+	8000 6150 8000 5850
+Wire Wire Line
+	8000 5850 7850 5850
+Wire Wire Line
+	7250 3900 6300 3900
+Wire Wire Line
+	6300 3900 6300 3950
 Wire Notes Line
 	5750 5350 5750 7150
 Wire Notes Line
@@ -103,8 +113,6 @@ Wire Wire Line
 	6700 3500 7250 3500
 Wire Wire Line
 	6700 3300 7250 3300
-Wire Wire Line
-	7250 3800 6500 3800
 Connection ~ 10800 1500
 Wire Wire Line
 	10800 1450 10800 1500
@@ -136,8 +144,6 @@ Wire Wire Line
 	8550 950  10200 950 
 Connection ~ 9600 950 
 Connection ~ 9900 950 
-Wire Wire Line
-	9850 6350 9350 6350
 Wire Wire Line
 	9700 6000 9700 6150
 Wire Wire Line
@@ -321,8 +327,6 @@ Wire Wire Line
 	8450 1500 8450 1600
 Connection ~ 8450 1500
 Wire Wire Line
-	7700 6250 8200 6250
-Wire Wire Line
 	8200 6450 7650 6450
 Wire Wire Line
 	7650 6450 7650 6700
@@ -360,13 +364,11 @@ Wire Wire Line
 	10800 2750 10800 2700
 Connection ~ 10800 2700
 Wire Wire Line
-	6500 4300 6500 4350
+	6000 4450 6000 4500
 Wire Wire Line
 	6700 3400 7250 3400
 Wire Wire Line
 	6700 3600 7250 3600
-Wire Wire Line
-	6750 3900 7250 3900
 Wire Wire Line
 	9450 3400 10000 3400
 Wire Wire Line
@@ -385,19 +387,73 @@ Wire Notes Line
 	11150 5350 11150 7150
 Wire Notes Line
 	11150 7150 5750 7150
+Wire Wire Line
+	6000 3950 6000 3800
+Wire Wire Line
+	6000 3800 7250 3800
+Wire Wire Line
+	6300 4450 6300 4650
+Wire Wire Line
+	6300 4650 6450 4650
+Wire Wire Line
+	6450 4650 6450 4500
+Wire Wire Line
+	7200 5750 7200 5850
+Wire Wire Line
+	7200 5850 7350 5850
+Wire Wire Line
+	9850 6350 9350 6350
+$Comp
+L VDDIO_3V3 #PWR?
+U 1 1 4D7D59A9
+P 7200 5750
+F 0 "#PWR?" H 7200 5850 30  0001 C CNN
+F 1 "VDDIO_3V3" H 7200 5850 30  0000 C CNN
+	1    7200 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4D7D5980
+P 7600 5850
+F 0 "R?" V 7680 5850 50  0000 C CNN
+F 1 "10K" V 7600 5850 50  0000 C CNN
+	1    7600 5850
+	0    1    1    0   
+$EndComp
+$Comp
+L VDDM_2V5 #PWR?
+U 1 1 4D7D4B15
+P 6450 4500
+F 0 "#PWR?" H 6450 4600 30  0001 C CNN
+F 1 "VDDM_2V5" H 6450 4600 30  0000 C CNN
+	1    6450 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 4D7D4AD6
+P 6300 4200
+F 0 "R?" V 6380 4200 50  0000 C CNN
+F 1 "47K" V 6300 4200 50  0000 C CNN
+	1    6300 4200
+	1    0    0    -1  
+$EndComp
+Text Notes 5850 5500 0    60   ~ 0
+SPI FLASH
 Text Notes 5850 750  0    60   ~ 0
 DDR RAM
-Text Label 5950 3700 0    60   ~ 0
+Text Label 5950 3300 0    60   ~ 0
 DDR_CLKN
-Text Label 5950 3200 0    60   ~ 0
+Text Label 5950 2800 0    60   ~ 0
 DDR_CLK
 $Comp
 L R R22
 U 1 1 4D41DFB8
-P 5950 3450
-F 0 "R22" V 6030 3450 50  0000 C CNN
-F 1 "110" V 5950 3450 50  0000 C CNN
-	1    5950 3450
+P 5950 3050
+F 0 "R22" V 6030 3050 50  0000 C CNN
+F 1 "110" V 5950 3050 50  0000 C CNN
+	1    5950 3050
 	1    0    0    -1  
 $EndComp
 Text Label 2200 5600 0    60   ~ 0
@@ -453,19 +509,19 @@ DDR_CASN
 $Comp
 L R R23
 U 1 1 4D418363
-P 6500 4050
-F 0 "R23" V 6580 4050 50  0000 C CNN
-F 1 "47K" V 6500 4050 50  0000 C CNN
-	1    6500 4050
+P 6000 4200
+F 0 "R23" V 6080 4200 50  0000 C CNN
+F 1 "47K" V 6000 4200 50  0000 C CNN
+	1    6000 4200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR01
 U 1 1 4D418353
-P 6500 4350
-F 0 "#PWR01" H 6500 4350 30  0001 C CNN
-F 1 "GND" H 6500 4280 30  0001 C CNN
-	1    6500 4350
+P 6000 4500
+F 0 "#PWR01" H 6000 4500 30  0001 C CNN
+F 1 "GND" H 6000 4430 30  0001 C CNN
+	1    6000 4500
 	1    0    0    -1  
 $EndComp
 NoConn ~ 9450 3100

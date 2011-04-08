@@ -1,4 +1,4 @@
-update=jue 03 mar 2011 22:25:21 COT
+update=jue 07 abr 2011 23:17:38 COT
 version=1
 last_client=eeschema
 [general]
@@ -116,3 +116,4 @@ LibName43=../components/PWR
 LibName44=../components/m25p32
 LibName45=../components/PROpendous-cache
 LibName46=../components/w_analog
+LibName47=/home/juanjo/CEIMTUN/Curso_sistemas_embebidos/SIEBOT2/siebot/components/adm3101e

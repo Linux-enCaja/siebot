@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date sáb 05 mar 2011 23:35:11 COT
+EESchema Schematic File Version 2  date jue 07 abr 2011 23:57:53 COT
 LIBS:stm32f100vxx
 LIBS:transistor-npn
 LIBS:ipc-7351-transistor
@@ -45,13 +45,14 @@ LIBS:PWR
 LIBS:m25p32
 LIBS:PROpendous-cache
 LIBS:w_analog
+LIBS:adm3101e
 LIBS:i.mx233stamp-cache
 EELAYER 25  0
 EELAYER END
 $Descr A4 11700 8267
-Sheet 3 6
+Sheet 4 6
 Title ""
-Date "6 mar 2011"
+Date "8 apr 2011"
 Rev ""
 Comp ""
 Comment1 ""
