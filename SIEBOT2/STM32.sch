@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date mar 19 abr 2011 23:27:38 COT
+EESchema Schematic File Version 2  date mié 20 abr 2011 11:32:24 COT
 LIBS:mpc17529
 LIBS:dc-dc
 LIBS:stm32f100vxx
