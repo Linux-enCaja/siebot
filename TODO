@@ -4,4 +4,9 @@ OK * De los 3 puertos seriales del stm32 y del imx, dos deberán estar conectado
 PENDING * (posible) Circuito de carga de lipo, falta elegir cantidad de celdas porque el del imx tiene un límite
 PENDING * Pendiente conexión JTAG entre el imx y el stm32
 OK * los pines del boot select para el stm32 deben estrar conectados a dos gpios del iMX (eliminar jumpers)
-PENDING * Reparar los nombres de los buses salientes del STM32, el ERC check da errores por eso
+OK * Reparar los nombres de los buses salientes del STM32, el ERC check da errores por eso
+OK * La señal HP_VGND (pin 111) no va a tierra, esa señal va a una indictancia que sale a la tierra de los audífonos, como es una señal análoga, es bueno tenerla separada.
+OK * La señal LCD_DO5 debe ser definida, en todos los diseños de referencia se conectan a GND. Me queda la duda del valor de las resistencias de 1.2k que se colocan para la selección del modo de boot, a mi modo de ver son muy pequenas y alterarían el funcionamiento del LCD.
+OK * Los valores y la configuración de las resistencias R13 y R16 del circuito del Reset son muy bajos, en los de referencia son de 47k, 47k en tuxrail y 47k 100k en el de freescale.
+PENDING * Agregar un dc-dc que permita obtener 12  y 6 volts simultáneamente para la parte de potencia, servos y sensores.
+PENDING * Verificar la cantidad de corriente del dc-dc a 3.3v interno en el iMX, quizá no sea adecuado conectar el STM32 a esta salida
